@@ -34,11 +34,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
-              {` `}
+              My name is <strong>{author}</strong>, and I'm a Full Stack Web Dev working with <a href="https://epublish.media">WePublish.media</a>.
+              {` `} Follow me {` `} 
               <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
+                on Twitter
               </a>
             </p>
           </Container>

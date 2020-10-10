@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Pascal Witzig | Full Stack Web Dev`,
-    author: `Pascal`,
+    title: `My code journey`,
+    author: `Pascal Witzig`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://www.pascalwitzig.ch`,
     social: {
