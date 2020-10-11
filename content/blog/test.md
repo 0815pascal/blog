@@ -11,7 +11,7 @@ I was trying to create a language switch that allows the user to change the lang
 At some other point I had to read the current language from `localStorage` and I tried doing it first in the following way: 
 
 ```javascript
-const currentLanguage = localStorage.getItem('savedValues?
+const currentLanguage = localStorage.getItem('savedValues')
 ```
 
 However, as I quickly discovered, it's not possible to return the name of the current language by writing `currentLanguage.name`. 
