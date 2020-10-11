@@ -6,7 +6,7 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
-    "code": {
+    "p>code": {
       fontSize: '.9rem',
       whiteSpace: 'pre-wrap',
       padding: '.1rem .3rem',
