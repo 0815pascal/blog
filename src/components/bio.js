@@ -34,7 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              My name is <strong>{author}</strong>, and I'm a Full Stack Web Dev working with <a href="https://epublish.media">WePublish.media</a>.
+              My name is <strong>{author}</strong>, and I'm a Full Stack Web Dev working with <a href="https://wepublish.media">WePublish.media</a>.
               {` `} Follow me {` `} 
               <a href={`https://twitter.com/${social.twitter}`}>
                 on Twitter
