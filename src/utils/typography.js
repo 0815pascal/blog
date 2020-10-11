@@ -6,6 +6,15 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "code": {
+      fontSize: '.9rem',
+      whiteSpace: 'pre-wrap',
+      padding: '.1rem .3rem',
+      borderRadius: '.35rem',
+      backgroundColor: '#f6f8fb', 
+      lineHeight: 1.7,
+      border: '1px solid #d6d9de'
+    }
   }
 }
 
