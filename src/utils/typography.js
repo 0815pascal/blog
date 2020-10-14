@@ -14,6 +14,10 @@ Wordpress2016.overrideThemeStyles = () => {
       backgroundColor: '#f6f8fb', 
       lineHeight: 1.7,
       border: '1px solid #d6d9de'
+    },
+    "#topReactangle":{
+      widht: '100%',
+      borderTop: '6px solid #EE3068'
     }
   }
 }

@@ -54,6 +54,8 @@ class Layout extends React.Component {
       )
     }
     return (
+      <>
+      <div id={"topReactangle"}></div>
       <Wrapper>
         <div
           style={{
@@ -72,6 +74,7 @@ class Layout extends React.Component {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </Footer>
       </Wrapper>
+      </>
     )
   }
 }
