@@ -29,4 +29,10 @@ The reason is that `localStorage.getItem()` can return either a string or `null`
 ```javascript
 const currentLanguage = JSON.parse(localStorage.getItem('savedValues') || '{}')
 ```
+
 If `localStorage.getItem()` returns `null` we return `JSON.parse()` curly braces `{}` which will be interpreted by the latter as an empty object.  
+
+## Other helpful ressources
+
+* [TypeScript Pedia](https://typescript.programmingpedia.net/en/knowledge-base/46915002/argument-of-type--string---null--is-not-assignable-to-parameter-of-type--string---type--null--is-not-assignable-to-type--string-)
+* [MDN web docs: JSON.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
