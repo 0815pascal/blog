@@ -17,8 +17,26 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     "#topReactangle":{
       widht: '100%',
-      borderTop: '6px solid #EE3068'
-    }
+      borderTop: '6px solid #336EF5'
+    },
+    "footer": {
+      margin: '0 !important',
+      display: 'flex'
+    },
+      "footer>div":{
+        textAlign: 'left',
+        fontFamily: '"Inter","Open Sans", sans-serif',
+        display: 'flex'
+      },
+      "#footerImage":{
+        marginLeft: 'auto',
+        alignSelf: 'center',
+        filter: 'drop-shadow(4px 3px 3px #AAAAAA)',
+        
+      },
+        "#footerImage a":{
+          boxShadow: 'none'
+        }
   }
 }
 

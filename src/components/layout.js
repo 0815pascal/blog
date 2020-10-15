@@ -7,8 +7,8 @@ import { rhythm, scale } from "../utils/typography"
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
-    const blogPath = `${__PATH_PREFIX__}/blog/`
+    const rootPath = `${__PATH_PREFIX__}/blog`
+    const blogPath = `${__PATH_PREFIX__}/blog`
     let header
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
@@ -54,9 +54,8 @@ class Layout extends React.Component {
       )
     }
     return (
-      <>
-      <div id={"topReactangle"}></div>
       <Wrapper>
+      <div id={"topReactangle"}></div>
         <div
           style={{
             marginLeft: `auto`,
@@ -67,14 +66,20 @@ class Layout extends React.Component {
         >
           <header>{header}</header>
           <main>{children}</main>
-        </div>
-        <Footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <hr/>
+          <Footer>
+          
+          <div>
+            © {new Date().getFullYear()} Pascal Witzig
+            {` `}
+            —— Made in ZRH, Switzerland.
+          </div>
+          <div id={"footerImage"}>
+          <a href="mailto:pascal.witzig@gmail.com"><span role="img" aria-label="Email me">💌</span></a>
+          </div>
         </Footer>
+        </div>
       </Wrapper>
-      </>
     )
   }
 }

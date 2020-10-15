@@ -16,6 +16,7 @@ export default function HTML(props) {
           rel="search"
           href="opensearch.xml"
         />
+        <link href="//fonts.googleapis.com/css?family=Inter:300,400,500,600,700" rel="stylesheet" type="text/css"></link>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
